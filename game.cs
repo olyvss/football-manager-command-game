@@ -37,6 +37,7 @@ namespace PremierLeagueTeamGenerator
                     Console.WriteLine("Available commands:");
                     Console.WriteLine("- team: Generates a random Premier League team.");
                     Console.WriteLine("- quit: Exits the game.");
+                    Console.WriteLine("- TeamInfo: get infomation on your team.");
                     
                 }
                 else if (command.ToLower() == "quit")
