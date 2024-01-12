@@ -14,7 +14,7 @@ namespace PremierLeagueTeamGenerator
             };
             
         
-            string commandTeam = "Your randomly generated Premier League team is: {0}";
+            string commandTeam = "Your randomly generated team is: {0}";
           
             int randomIndex;
             
