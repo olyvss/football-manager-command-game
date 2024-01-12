@@ -32,14 +32,14 @@ namespace PremierLeagueTeamGenerator
                     Console.WriteLine(commandTeam, randomTeam);
                     commandTeam = "you cant generate another team" + System.Environment.NewLine;
                 }
-                else if (command == "help")
+                else if (command.ToLower() == "help")
                 {
                     Console.WriteLine("Available commands:");
                     Console.WriteLine("- team: Generates a random Premier League team.");
                     Console.WriteLine("- quit: Exits the game.");
                     
                 }
-                else if (command == "quit")
+                else if (command.ToLower() == "quit")
                 {
                     break;
                 }
